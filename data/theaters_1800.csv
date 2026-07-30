@@ -1,0 +1,24 @@
+"city","theaters","theater_seats","city1"
+"Livorno",1,350,8
+"Lucca",1,350,9
+"Modena",1,350,13
+"Palermo",1,350,16
+"Piacenza",1,350,17
+"Reggio Emilia",1,350,18
+"Rovigo",1,350,20
+"Brescia",1,400,4
+"Genova",1,440,7
+"Messina",1,450,11
+"Roma",1,500,19
+"Bergamo",1,670,2
+"Mantova",1,700,10
+"Padova",1,800,15
+"Bologna",1,900,3
+"Ancona",1,1100,1
+"Verona",1,1200,23
+"Ferrara",2,1200,5
+"Torino",2,2300,21
+"Napoli",2,2500,14
+"Milano",2,3500,12
+"Firenze",3,2150,6
+"Venezia",3,2400,22

@@ -29,7 +29,7 @@ ggplot(
     plot.title = element_text(face = "bold", hjust = 0.5)
   )
 
-ggsave("./grafiken/operas_by_region.png", width = 12, height = 6, dpi = 300)
+ggsave("./grafiken/aufgabe_2/operas_by_region.png", width = 12, height = 6, dpi = 300)
 
 #Lösung von Aufgabe 2: Aggregation
 #Opern nach Jahr und Region gruppieren
@@ -56,6 +56,7 @@ ggplot(
   ) + # Einführungsjahr des Urheberrechts markieren
   geom_vline(xintercept = 1801, linetype = 2) +
   geom_line(linewidth = 1) +
+  geom_point(size = 2) +
   theme_minimal() +
   theme(
     legend.position = "right",
@@ -64,4 +65,4 @@ ggplot(
 
 
 # Optional: Plot als Bilddatei speichern
-ggsave("./grafiken/operas_by_year_region.png", width = 12, height = 6, dpi = 300)
+ggsave("./grafiken/aufgabe_2/operas_by_year_region.png", width = 12, height = 6, dpi = 300)
