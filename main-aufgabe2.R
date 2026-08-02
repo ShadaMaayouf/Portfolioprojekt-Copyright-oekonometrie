@@ -1,6 +1,6 @@
-library(haven)     # Zum Einlesen von Stata-Dateien (.dta)
-library(dplyr)     # Für die Datenmanipulation
-library(ggplot2)   # Für die Visualisierung
+library(haven)     
+library(dplyr)     
+library(ggplot2)   
 
 df <- read_stata("./data/operas_1781_1820.dta")
 
